@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BYD Electric Vehicles – Official Site" />
+  <title>BYD | Electric Vehicles</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600;700&family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="/" class="header__logo">
+        <span class="logo-text">BYD</span>
+
+      <nav class="header__nav" aria-hidden="true">
+        <ul class="nav__list">
+          <li><a href="#models">Models</a></li>
+          <li><a href="#technology">Technology</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        
+        <a href="#test-drive" class="btn btn--outline">Test Drive</a>
+        <button class="header__menu-toggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <img src="img/2880x1120_banner_v2.jpg" alt="">
+    </div>
+    <div class="hero__content">
+      
+      
+      <div class="hero__cta">
+        <a href="#models" class="btn btn--primary">Explore Models</a>
+        <a href="#test-drive" class="btn btn--ghost">Book a Test Drive</a>
+      </div>
+      
+    </div>
+    <div class="hero__scroll-hint">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ===== MODELS SECTION ===== -->
+  <section class="models" id="models">
+    <div class="container">
+      <h2 class="section-title">Our Models</h2>
+      <p class="section-sub">Choose the electric vehicle that fits your life.</p>
+
+      <div class="models__grid">
+
+        <!-- Model Card -->
+        <article class="model-card">
+          <div class="model-card__img-wrap">
+            <img src="img/BYD-ATTO3-EVO.webp" alt="BYD ATTO 3" />
+          </div>
+          <div class="model-card__info">
+            <h3 class="model-card__name">BYD ATTO 3</h3>
+            <ul class="model-card__specs">
+              <li><span>Range</span><strong>530 km</strong></li>
+              <li><span>0–100</span><strong>3.8 s</strong></li>
+              <li><span>Power</span><strong>390 kW</strong></li>
+            </ul>
+            <div class="model-card__actions">
+              <a href="#" class="btn btn--primary btn--sm">Learn More</a>
+              <a href="#" class="btn btn--outline btn--sm">Configure</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Model Card -->
+        <article class="model-card">
+          <div class="model-card__img-wrap">
+            <img src="img/45-Left-Pc@2x.jpg" alt="BYD SELEK" />
+          </div>
+          <div class="model-card__info">
+            <h3 class="model-card__name">BYD SEAL</h3>
+            <ul class="model-card__specs">
+              <li><span>Range</span><strong>470 km</strong></li>
+              <li><span>0–100</span><strong>5.3 s</strong></li>
+              <li><span>Power</span><strong>240 kW</strong></li>
+            </ul>
+            <div class="model-card__actions">
+              <a href="#" class="btn btn--primary btn--sm">Learn More</a>
+              <a href="#" class="btn btn--outline btn--sm">Configure</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Model Card -->
+        <article class="model-card">
+          <div class="model-card__img-wrap">
+            <img src="img/BYD_DOLPHIN_SURF.jpg" alt="BYD DOLPHIN" />
+          </div>
+          <div class="model-card__info">
+            <h3 class="model-card__name">BYD DOLPHIN</h3>
+            <ul class="model-card__specs">
+              <li><span>Range</span><strong>320 km</strong></li>
+              <li><span>0–100</span><strong>7.0 s</strong></li>
+              <li><span>Power</span><strong>150 kW</strong></li>
+            </ul>
+            <div class="model-card__actions">
+              <a href="#" class="btn btn--primary btn--sm">Learn More</a>
+              <a href="#" class="btn btn--outline btn--sm">Configure</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TECHNOLOGY SECTION ===== -->
+  <section class="technology" id="technology">
+    <div class="container technology__inner">
+      <div class="technology__text">
+        <p class="section-eyebrow">Innovation</p>
+        <h2 class="section-title">Blade Battery Technology</h2>
+        <p>BYD’ning inqilobiy Blade Battery texnologiyasi xavfsizlik, uzoq xizmat muddati va samaradorlikni yangi bosqichga olib chiqadi — u mix bilan teshib ko‘rish sinovidan ham yong‘in yoki portlashsiz muvaffaqiyatli o‘tgan.</p>
+        <a href="#" class="btn btn--primary">Discover More</a>
+      </div>
+      <div class="technology__visual">
+        <img src="img/ecc60926705eb935c8a97c2bbd411676b401bbd71d89919347457730.jpg" alt="Blade Battery" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TEST DRIVE SECTION ===== -->
+  <section class="test-drive" id="test-drive">
+    <div class="container">
+      <h2 class="section-title">Book a Test Drive</h2>
+      <p class="section-sub">Experience the future — find a dealer near you</p>
+      <form class="test-drive__form" novalidate>
+        <input type="text"  placeholder="Your Name"  required />
+        <input type="email" placeholder="Email Address" required />
+        <input type="tel"   placeholder="Phone Number" />
+        <select>
+          <option value="" disabled selected>Select a Model</option>
+          <option>BYD SEAL</option>
+          <option>BYD ATTO 3</option>
+          <option>BYD DOLPHIN</option>  
+        </select>
+        <button type="submit" class="btn btn--primary">Request Test Drive</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="container about__inner">
+      <div class="about__visual">
+        <img src="img/5df10819a3d95c86e302dc9f3c359cf992df3d0f0b6af382b4c4f1fb.jpg" alt="BYD" />
+      </div>
+      <div class="about__text">
+        <p class="section-eyebrow">About BYD</p>
+        <h2 class="section-title">Powering a Zero‑Emission World</h2>
+        <p>1995-yilda tashkil etilgan [BYD](https://www.byd.com?utm_source=chatgpt.com) yangi energiyali avtomobillar, batareyalar va yashil texnologiyalar sohasida global yetakchiga aylandi — hozirda u 70 dan ortiq mamlakat va hududlarda faoliyat yuritmoqda.
+</p>
+        <a href="#" class="btn btn--outline">Our Story</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="contact">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="logo-text">BYD</span>
+        <p>Build Your Dreams</p>
+      </div>
+
+      <nav class="footer__nav">
+        <ul>
+          <li><a href="#">Models</a></li>
+          <li><a href="#">Technology</a></li>
+          <li><a href="#">Dealers</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">About BYD</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__social">
+        <a href="#" aria-label="Twitter">𝕏</a>
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="YouTube">YT</a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; 2026 BYD Auto. All rights reserved.</p>
+      <div>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Cookie Settings</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
